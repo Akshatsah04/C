@@ -18,13 +18,12 @@ int main(){
             feb_days=28;
         }
         
-    
         if (m>=1)total_days=31;
         if (m>=2)total_days+=feb_days;
         if (m>=3)total_days+=31;
         if (m>=4)total_days+=30;
-        if (m>=6)total_days+=30;
         if (m>=5)total_days+=31;
+        if (m>=6)total_days+=30;
         if (m>=7)total_days+=31;
         if (m>=8)total_days+=31;
         if (m>=9)total_days+=30;
@@ -32,14 +31,7 @@ int main(){
         if (m>=11)total_days+=30;
         if (m>=12)total_days+=31;
     }
-
-    
-
-
-
     printf("total_days=%d",total_days);
-
-
+    
     return 0;
-
 }
