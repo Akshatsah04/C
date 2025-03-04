@@ -2,10 +2,10 @@
 #include<math.h>
 
 int main(){
-    int a , b , c ;
+    float a , b , c ;
     float s , area;
-    printf("enter the sides of triange \n");
-    scanf("%d%d%d",&a , &b , &c);
+    printf("enter the sides of triangle \n");
+    scanf("%f%f%f",&a , &b , &c);
 
     if(a+b>c && b+c>a && a+c>b){
         s=(a+b+c)/2;
