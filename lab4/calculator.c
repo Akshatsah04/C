@@ -23,7 +23,7 @@ int main(){
         printf("%d",a*b);
         break;
     case 4:
-        printf("%d",a/b);
+        printf("%.2f",1.0*a/b);
         break;
     
     default:

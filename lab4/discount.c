@@ -22,8 +22,5 @@ int main(){
         printf("net cost price after disount=%.2f",cost-cost*0.25);
         break;
     }
-
     return 0;
-
-
 }

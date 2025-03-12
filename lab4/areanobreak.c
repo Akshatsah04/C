@@ -19,10 +19,10 @@ int main(){
         printf("enter the sides of triangle with space:");
         scanf("%f%f%f",&a,&b,&c);
         if(a+b>c && b+c>a && a+c>b){
-        s=(a+b+c)/2;
-        printf("area of the tringle=%.2f\n",sqrt(s*(s-a)*(s-b)*(s-c)));
+            s=(a+b+c)/2;
+            printf("area of the tringle=%.2f\n",sqrt(s*(s-a)*(s-b)*(s-c)));
         }else{
-        printf("tringle is not possble with this input\n");
+            printf("tringle is not possble with this input\n");
         }
     case 3:
         printf("enter the value of length and breath:");

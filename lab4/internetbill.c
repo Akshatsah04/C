@@ -3,7 +3,7 @@
 int main(){
     int inter , amount=200;
 
-    printf("enter the amount of interner used\n");
+    printf("enter the amount of internet used\n");
     scanf("%d",&inter);
 
     switch (inter)
