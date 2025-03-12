@@ -24,8 +24,8 @@ int main(){
         scanf("%d",&dec);
         while (dec>0)
         {
-            digit=dec%2;
-            sum=digit*mul;
+            digit=dec%2;  
+            sum+=digit*mul;
             mul*=10;
 
             dec=dec/2;
