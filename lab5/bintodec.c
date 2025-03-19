@@ -27,13 +27,9 @@ int main(){
             digit=dec%2;  
             sum+=digit*mul;
             mul*=10;
-
             dec=dec/2;
         }
-        printf("%d",sum);
-        
-    }
-    
+        printf("%d",sum);  
+    }   
     return 0;
-    
 }
