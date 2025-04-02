@@ -1,7 +1,12 @@
 #include<stdio.h>
 
+
+
+
 int main(){
-    int n ;
+    
+    int n;
+
     printf("enter the size of your name\n");
     scanf("%d" , &n);
     char name[n];
