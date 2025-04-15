@@ -13,10 +13,8 @@ int main(){
         {
             scanf("%d",&list[i][j]);
             sum+=list[i][j];
-
         }
-        avg[i]=sum/3.0;
-        
+        avg[i]=sum/3.0;     
     }
     for (int i = 0; i <5; i++)
     {
@@ -25,10 +23,7 @@ int main(){
         {
             printf("%d ",list[i][j]);
         }
-        printf("\nthe average marks of subjust %d is %.2f\n",i+1 , avg[i]);
-        
+        printf("\nthe average marks of subjust %d is %.2f\n",i+1 , avg[i]);     
     }
-    return 0;
-
-    
+    return 0;   
 }
