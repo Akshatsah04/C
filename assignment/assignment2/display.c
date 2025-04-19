@@ -22,7 +22,7 @@ int main(){
     printf("your inputs are : ");
     for (int i = 0; i < 5; i++)
     {
-        printf("%d",arr2[i]);
+        printf("%d ",arr2[i]);
     }
 
     return 0;
