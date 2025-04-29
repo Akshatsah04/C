@@ -3,7 +3,7 @@
 int main(){
     int list[5][3];
     float avg[5];
-    int total[3];
+    int total[3]={0};
     int sum=0;
 
     for (int i = 0; i <5; i++)
