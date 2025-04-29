@@ -23,7 +23,7 @@ int main(){
         {
             printf("%d ",list[i][j]);
         }
-        printf("\nthe average marks of subjust %d is %.2f\n",i+1 , avg[i]);     
+        printf("\nthe average marks of subject %d is %.2f\n",i+1 , avg[i]);     
     }
     return 0;   
 }
