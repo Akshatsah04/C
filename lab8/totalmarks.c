@@ -8,7 +8,7 @@ int main(){
     for (int i = 0; i <5; i++)
     {
         sum=0;
-        printf("enter the subjust %d marks of 3 student\n",i+1);
+        printf("enter the subject %d marks of 3 student\n",i+1);
         for (int j = 0; j <3; j++)
         {
             scanf("%d",&list[i][j]);
@@ -18,7 +18,7 @@ int main(){
     }
     for (int i = 0; i <5; i++)
     {
-        printf("marks of subjust %d\n",i+1);
+        printf("marks of subject %d\n",i+1);
         for (int j = 0; j <3; j++)
         {
             printf("%d ",list[i][j]);
