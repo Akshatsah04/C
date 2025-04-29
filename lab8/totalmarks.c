@@ -3,6 +3,7 @@
 int main(){
     int list[5][3];
     float avg[5];
+    int total[3];
     int sum=0;
 
     for (int i = 0; i <5; i++)
@@ -13,6 +14,7 @@ int main(){
         {
             scanf("%d",&list[i][j]);
             sum+=list[i][j];
+            total[j]+=list[i][j];
         }
         avg[i]=sum/3.0;     
     }
@@ -25,5 +27,11 @@ int main(){
         }
         printf("\nthe average marks of subject %d is %.2f\n",i+1 , avg[i]);     
     }
+
+    for (int i = 0; i < 3; i++)
+    {
+        printf("\nthe total marks of student %d is %d",i+1 , total[i]);     
+    }
+    
     return 0;   
 }
